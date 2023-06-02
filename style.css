@@ -169,6 +169,26 @@ footer {
     padding-right: 1rem;
     font-size: large;
   }
+
+  aside img {
+    width: 13rem;
+    height: 13rem;
+  }
+
+  aside {
+    gap: 1rem;
+    padding: 0;
+    margin: 0 0 2rem 0;
+    font-size: larger;
+  }
+
+  #content div {
+    font-size: larger;
+  }
+
+  #content div:last-child {
+    margin: 0;
+  }
 }
 @media screen and (min-width: 768px) {
   nav img {
@@ -185,6 +205,14 @@ footer {
     padding-right: 1.3rem;
     font-size: large;
   }
+
+  #content div {
+    font-size: x-large;
+  }
+
+  #content div article {
+    padding: 0 3rem;
+  }
 }
 @media screen and (min-width: 992px) {
   nav img {
@@ -200,5 +228,17 @@ footer {
     gap: 3rem;
     padding-right: 2.3rem;
     font-size: larger;
+  }
+
+  #content div {
+    font-size: xx-large;
+  }
+
+  #content div article {
+    padding: 0 8rem;
+  }
+
+  main {
+    font-size: x-large;
   }
 }
