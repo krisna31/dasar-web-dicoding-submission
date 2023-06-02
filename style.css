@@ -75,7 +75,7 @@ nav ul {
   list-style: none;
 }
 
-nav ul li:nth-child(1) {
+.active {
   color: white;
   text-shadow: 0.1rem 0.2rem 0.2rem rgba(0, 0, 0, 0.2);
   background: -webkit-linear-gradient(#1c19e3, #8119e3);
