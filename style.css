@@ -18,6 +18,11 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  background: var(--main-color);
+  overflow-x: hidden;
+}
+
 h1 {
   font-size: larger;
 }
@@ -31,11 +36,6 @@ article {
 a {
   text-decoration: none;
   color: inherit;
-}
-
-body {
-  background: var(--main-color);
-  height: 500vh;
 }
 
 nav {
@@ -89,6 +89,14 @@ main {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
+}
+
+footer {
+  background-color: var(--secondary-color);
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  font-size: small;
 }
 
 @media screen and (min-width: 576px) {
