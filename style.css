@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
 :root {
   --main-color: #c4dfdf;
   --secondary-color: #d2e9e9;
@@ -13,6 +15,17 @@
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: larger;
+}
+
+article {
+  margin: 0 1rem;
+  font-size: smaller;
+  text-align: center;
 }
 
 a {
@@ -34,6 +47,9 @@ nav {
   align-items: center;
   box-shadow: 0.5rem 0.1rem 1rem rgba(0, 0, 0, 0.2);
   gap: 1rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
 }
 
 nav img {
@@ -56,7 +72,23 @@ nav ul li:nth-child(1) {
   text-shadow: 0.1rem 0.2rem 0.2rem rgba(0, 0, 0, 0.2);
   background: -webkit-linear-gradient(#1c19e3, #8119e3);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+main {
+  margin-top: 8.5rem;
+}
+
+#content div {
+  background-color: var(--main-color);
+  margin: 1rem 0;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
 }
 
 @media screen and (min-width: 576px) {
