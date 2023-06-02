@@ -4,3 +4,58 @@
   --third-color: #e3f4f4;
   --fourth-color: #f8f6f4;
 }
+
+/* reset all style with simple one */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  background: var(--main-color);
+  height: 500vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  background-color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0.5rem 0.1rem 1rem rgba(0, 0, 0, 0.2);
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+nav img {
+  width: 100%;
+  height: auto;
+  box-shadow: 0.5rem 0.1rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  list-style: none;
+  position: sticky;
+  top: 0;
+}
+
+nav ul li:nth-child(1) {
+  color: white;
+  text-shadow: 0.1rem 0.2rem 0.2rem rgba(0, 0, 0, 0.2);
+  background: -webkit-linear-gradient(#1c19e3, #8119e3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
